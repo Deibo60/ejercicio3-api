@@ -2,7 +2,9 @@
 
 API para registrar y consultar estudiantes en una base de datos MySQL, desarrollada con Python y Flask.
 
+---
 ## Ángel Gabriel Rojas Hernández 
+---
 
 ## Requisitos previos
 
@@ -109,10 +111,6 @@ POST http://127.0.0.1:5000/estudiantes
 
 ---
 
-### GET /estudiantes — Consultar todos los estudiantes
-
-Devuelve la lista completa de estudiantes registrados.
-
 ## Manejo de errores
 
 La API valida todos los campos de entrada y responde con código `400` si falta alguno:
@@ -139,6 +137,13 @@ ejercicio3-api/
 ---
 
 ## Comandos para retomar el proyecto
+
+Cada vez que vuelvas a trabajar en el proyecto ejecuta:
+```bash
+cd ejercicio3-api
+venv\Scripts\activate
+python ejercicio3.py
+```
 
 Cada vez que vuelvas a trabajar en el proyecto ejecuta:
 ```bash
